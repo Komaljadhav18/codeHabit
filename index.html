@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login / Signup</title>
+
+<!-- CSS -->
+<link rel="stylesheet" href="styling/loginpageStyling.css">
+
+<!-- JS -->
+<script src="JS/auth.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h2 id="title">Login</h2>
+
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+
+        <button onclick="submitForm()">Login</button>
+
+        <p class="toggle">
+            Don't have an account?
+            <span onclick="toggleForm()">Sign up</span>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
